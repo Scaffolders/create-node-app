@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "start:dev": "ts-node-dev --respawn  src/app.ts | pino-pretty",
-    "start:prod": "set NODE_ENV=production && tsc && node dist/app.js",
+    "start:prod": "set NODE_ENV=production && tsc && node dist/src/app.js",
     "test": "jest -setupFiles dotenv/config --coverage"
   },
   "devDependencies": {
