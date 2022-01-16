@@ -3,9 +3,9 @@ import * as dotenv from 'dotenv';
 dotenv.config();
 
 export const serverConfig: {
-    readonly Server: string
     readonly Host: string
+    readonly Port: string
 }= {
-    Server: process.env.SERVER,
-    Host: process.env.PORT
+    Host: process.env.HOST,
+    Port: process.env.PORT
 }
