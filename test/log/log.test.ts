@@ -1,4 +1,4 @@
-import { makeLogger } from '../src/log';
+import { makeLogger } from '../../src/log';
 
 const logger = makeLogger(); 
 
