@@ -11,10 +11,30 @@ This app contains:
 * Typescript as the programming language
 * Pino to make logs
 
-## Requirements
+## Installation
 
-To this project work on your computer you must have installed the following tools:
+You can run this application on a Docker container or in your local machine.
 
-* Node.js
-* Yarn
-* Make
+### Run on Docker
+
+To run on Docker, you just need to have Docker installed on your machine. Just run the following 
+command:
+
+```bash
+docker-compose up -d
+```
+
+### Run on a local Machine
+
+To run on your machine, you must have Node and Yarn installed on your machine. After you have these two dependencies installed, just run:
+
+```bash
+yarn
+yarn start:dev
+```
+
+You can run this with the Makefile too, make sure you have installed. And run the commands:
+
+```bash
+make run-dev
+```
